@@ -1,3 +1,15 @@
+Fork from https://github.com/mverleg/array_storage_benchmark to target HDF5 method.
+
+Note that the test file has the following differences:
+- Any line that uses `jt_dump` has been commented out
+- Most of the methods where throwing errors, thus I just benchmarked HDF5 and NPY as a reference.
+
+.. image:: https://user-images.githubusercontent.com/26899347/67759979-5c96a580-fa38-11e9-9d71-f98ec1c4e611.png
+.. image:: https://user-images.githubusercontent.com/26899347/67759984-5dc7d280-fa38-11e9-8b37-ac264218f25e.png
+.. image:: https://user-images.githubusercontent.com/26899347/67759989-5f919600-fa38-11e9-8b84-8262bffb1633.png
+.. image:: https://user-images.githubusercontent.com/26899347/67759994-615b5980-fa38-11e9-9301-53432f11dac6.png
+
+
 Array storage benchmark
 ---------------------------------------
 
